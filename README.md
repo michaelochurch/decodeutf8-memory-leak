@@ -9,5 +9,5 @@ To reproduce it:
 2. Execute the script ```reproduce-leak```, which runs the ```main``` method in
   ```Main.hs```. The first three examples should succeed: even though they allocate
   300 MB+ of memory, they deallocate it in time. The fourth will fail, which
-  indicates that ```encodeUtf8``` holds either the ```ByteString``` or
-  ```Text``` in memory than it needs to.
+  indicates that ```encodeUtf8``` holds more of either the ```ByteString``` or
+  of the ```Text``` in memory than it needs to.
