@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cabal build
+dist/build/memory-leak/memory-leak +RTS -M120m -RTS
