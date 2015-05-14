@@ -1,5 +1,6 @@
 This is a full reproduction of the memory leak described in this Github
-issue. It should reproduce the problem "out of the box".
+issue: https://github.com/bos/text/issues/123. It should reproduce the problem 
+"out of the box".
 
 To reproduce it:
 
